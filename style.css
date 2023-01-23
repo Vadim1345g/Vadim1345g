@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-image: url(1613656666_2-p-foni-dlya-prezentatsii-ofis-2.jpg);
+    background-attachment: fixed;
+    /*position: relative; */
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #689CD2 ;
+    color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header__section{
+    display: flex;
+    align-items: center;
+}
+
+.header_item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.header_item:hover{
+    background-color: #FF9900;
+    border-radius: 4px;
+}
+
+.headerlogo{
+    font-weight: bold ;
+}
+
+.headerButton{
+    cursor: pointer;
+}
+
+.Foto1{
+    padding: 5px;
+    margin-left: 70%;
+    left: 100px;
+    cursor: pointer;
+    position: absolute;
+    bottom:95px;
+}
+
+.Foto2{
+    padding: 5px;
+    left: 100px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 2%;
+    bottom:105px;
+}
+
+.silka{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+    background-color: rgb(104, 101, 84);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+article{
+    padding: 50px;
+    margin-left: 400px;
+    top: 116px;
+    background-color: rgb(235, 236, 177);
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo{
+    border: 1px ridge rgb(37, 176, 86);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(104, 101, 84) ;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer a{
+    color: white;
+    font-size: 14px;
+    margin-left:10px;
+}
+
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.social img:hover{
+    background: #689CD2;
+    border-radius: 50%;
+}
+
+footer p{
+    color: white;
+}
+
+p{
+    margin: 10pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: «Sofia Sans», без засечек;
+    color: ForestGreen;
+}
+
+.knopka{
+    display: inline-block;
+    background-color: #FF9900;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    
+
+}
+
+.Button{
+
+}
+
+video{
+    padding: 12px;
+}
